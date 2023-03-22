@@ -1,0 +1,872 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="2" ignored="26" total="60" passed="32" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-22T12:16:07 GST" name="RestaurantSuite" finished-at="2023-03-22T12:30:05 GST" duration-ms="837400">
+    <groups>
+      <group name="Smoke">
+        <method signature="VerifyStoreTest.validateTableHeaders()[pri:0, instance:com.POS.TestCases.VerifyStoreTest@7674f035]" name="validateTableHeaders" class="com.POS.TestCases.VerifyStoreTest"/>
+        <method signature="VerifyProductPageTest.validateShowPdtTblCount()[pri:1, instance:com.POS.TestCases.VerifyProductPageTest@173ed316]" name="validateShowPdtTblCount" class="com.POS.TestCases.VerifyProductPageTest"/>
+        <method signature="VerifyHomePageTest.validateMenuDisplay()[pri:3, instance:com.POS.TestCases.VerifyHomePageTest@2cf3d63b]" name="validateMenuDisplay" class="com.POS.TestCases.VerifyHomePageTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2023-03-22T12:16:07 GST" name="QALegendTest" finished-at="2023-03-22T12:30:05 GST" duration-ms="837400">
+      <class name="com.POS.TestCases.VerifyHomePageTest">
+        <test-method is-config="true" signature="beforeMethods(java.lang.String)[pri:0, instance:com.POS.TestCases.VerifyHomePageTest@2cf3d63b]" started-at="2023-03-22T12:17:58 GST" name="beforeMethods" finished-at="2023-03-22T12:18:06 GST" duration-ms="8488" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethods -->
+        <test-method signature="validateMenuDisplay()[pri:3, instance:com.POS.TestCases.VerifyHomePageTest@2cf3d63b]" started-at="2023-03-22T12:18:06 GST" name="validateMenuDisplay" finished-at="2023-03-22T12:18:11 GST" duration-ms="4541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMenuDisplay -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.POS.TestCases.VerifyHomePageTest@2cf3d63b]" started-at="2023-03-22T12:18:11 GST" name="afterMethod" finished-at="2023-03-22T12:18:11 GST" duration-ms="497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.POS.TestCases.VerifyHomePageTest -->
+      <class name="com.POS.TestCases.VerifyProductPageTest">
+        <test-method is-config="true" signature="beforeMethods(java.lang.String)[pri:0, instance:com.POS.TestCases.VerifyProductPageTest@173ed316]" started-at="2023-03-22T12:22:59 GST" name="beforeMethods" finished-at="2023-03-22T12:23:05 GST" duration-ms="6134" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethods -->
+        <test-method signature="validateShowPdtTblCount()[pri:1, instance:com.POS.TestCases.VerifyProductPageTest@173ed316]" started-at="2023-03-22T12:23:05 GST" name="validateShowPdtTblCount" finished-at="2023-03-22T12:23:17 GST" duration-ms="11475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateShowPdtTblCount -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.POS.TestCases.VerifyProductPageTest@173ed316]" started-at="2023-03-22T12:23:17 GST" name="afterMethod" finished-at="2023-03-22T12:23:17 GST" duration-ms="352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethods(java.lang.String)[pri:0, instance:com.POS.TestCases.VerifyProductPageTest@173ed316]" started-at="2023-03-22T12:23:17 GST" name="beforeMethods" finished-at="2023-03-22T12:23:24 GST" duration-ms="6485" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethods -->
+        <test-method signature="validateFilterBySupplier()[pri:2, instance:com.POS.TestCases.VerifyProductPageTest@173ed316]" started-at="2023-03-22T12:23:24 GST" name="validateFilterBySupplier" finished-at="2023-03-22T12:23:34 GST" duration-ms="9899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFilterBySupplier -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.POS.TestCases.VerifyProductPageTest@173ed316]" started-at="2023-03-22T12:23:34 GST" name="afterMethod" finished-at="2023-03-22T12:23:34 GST" duration-ms="280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethods(java.lang.String)[pri:0, instance:com.POS.TestCases.VerifyProductPageTest@173ed316]" started-at="2023-03-22T12:23:34 GST" name="beforeMethods" finished-at="2023-03-22T12:23:41 GST" duration-ms="7306" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethods -->
+        <test-method signature="validateFilterByPdtType()[pri:3, instance:com.POS.TestCases.VerifyProductPageTest@173ed316]" started-at="2023-03-22T12:23:41 GST" name="validateFilterByPdtType" finished-at="2023-03-22T12:23:54 GST" duration-ms="12787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFilterByPdtType -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.POS.TestCases.VerifyProductPageTest@173ed316]" started-at="2023-03-22T12:23:54 GST" name="afterMethod" finished-at="2023-03-22T12:23:54 GST" duration-ms="332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethods(java.lang.String)[pri:0, instance:com.POS.TestCases.VerifyProductPageTest@173ed316]" started-at="2023-03-22T12:23:54 GST" name="beforeMethods" finished-at="2023-03-22T12:24:01 GST" duration-ms="6201" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethods -->
+        <test-method signature="validateFilterBySupPdtType()[pri:4, instance:com.POS.TestCases.VerifyProductPageTest@173ed316]" started-at="2023-03-22T12:24:01 GST" name="validateFilterBySupPdtType" finished-at="2023-03-22T12:24:25 GST" duration-ms="24183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFilterBySupPdtType -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.POS.TestCases.VerifyProductPageTest@173ed316]" started-at="2023-03-22T12:24:25 GST" name="afterMethod" finished-at="2023-03-22T12:24:25 GST" duration-ms="518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethods(java.lang.String)[pri:0, instance:com.POS.TestCases.VerifyProductPageTest@173ed316]" started-at="2023-03-22T12:24:25 GST" name="beforeMethods" finished-at="2023-03-22T12:24:32 GST" duration-ms="6739" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethods -->
+        <test-method signature="validateDownloadCSV()[pri:5, instance:com.POS.TestCases.VerifyProductPageTest@173ed316]" started-at="2023-03-22T12:24:32 GST" name="validateDownloadCSV" finished-at="2023-03-22T12:24:43 GST" duration-ms="10555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDownloadCSV -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.POS.TestCases.VerifyProductPageTest@173ed316]" started-at="2023-03-22T12:24:43 GST" name="afterMethod" finished-at="2023-03-22T12:24:43 GST" duration-ms="606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethods(java.lang.String)[pri:0, instance:com.POS.TestCases.VerifyProductPageTest@173ed316]" started-at="2023-03-22T12:24:43 GST" name="beforeMethods" finished-at="2023-03-22T12:24:51 GST" duration-ms="8058" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethods -->
+        <test-method signature="validateUploadCSV()[pri:6, instance:com.POS.TestCases.VerifyProductPageTest@173ed316]" started-at="2023-03-22T12:24:51 GST" name="validateUploadCSV" finished-at="2023-03-22T12:25:06 GST" duration-ms="14317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUploadCSV -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.POS.TestCases.VerifyProductPageTest@173ed316]" started-at="2023-03-22T12:25:06 GST" name="afterMethod" finished-at="2023-03-22T12:25:06 GST" duration-ms="296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethods(java.lang.String)[pri:0, instance:com.POS.TestCases.VerifyProductPageTest@173ed316]" started-at="2023-03-22T12:25:06 GST" name="beforeMethods" finished-at="2023-03-22T12:25:14 GST" duration-ms="7893" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethods -->
+        <test-method signature="validatePrintMenu()[pri:7, instance:com.POS.TestCases.VerifyProductPageTest@173ed316]" started-at="2023-03-22T12:25:14 GST" name="validatePrintMenu" finished-at="2023-03-22T12:25:36 GST" duration-ms="22005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePrintMenu -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.POS.TestCases.VerifyProductPageTest@173ed316]" started-at="2023-03-22T12:25:36 GST" name="afterMethod" finished-at="2023-03-22T12:25:37 GST" duration-ms="1249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethods(java.lang.String)[pri:0, instance:com.POS.TestCases.VerifyProductPageTest@173ed316]" started-at="2023-03-22T12:25:37 GST" name="beforeMethods" finished-at="2023-03-22T12:25:43 GST" duration-ms="6191" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethods -->
+        <test-method signature="validateAddProduct()[pri:8, instance:com.POS.TestCases.VerifyProductPageTest@173ed316]" started-at="2023-03-22T12:25:43 GST" name="validateAddProduct" finished-at="2023-03-22T12:26:17 GST" duration-ms="33705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddProduct -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.POS.TestCases.VerifyProductPageTest@173ed316]" started-at="2023-03-22T12:26:17 GST" name="afterMethod" finished-at="2023-03-22T12:26:17 GST" duration-ms="557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethods(java.lang.String)[pri:0, instance:com.POS.TestCases.VerifyProductPageTest@173ed316]" started-at="2023-03-22T12:26:17 GST" name="beforeMethods" finished-at="2023-03-22T12:26:22 GST" duration-ms="5063" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethods -->
+        <test-method signature="validateSearchPdt()[pri:9, instance:com.POS.TestCases.VerifyProductPageTest@173ed316]" started-at="2023-03-22T12:26:22 GST" name="validateSearchPdt" finished-at="2023-03-22T12:26:31 GST" duration-ms="8845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchPdt -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.POS.TestCases.VerifyProductPageTest@173ed316]" started-at="2023-03-22T12:26:31 GST" name="afterMethod" finished-at="2023-03-22T12:26:32 GST" duration-ms="323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.POS.TestCases.VerifyProductPageTest -->
+      <class name="com.POS.TestCases.VerifyStoreTest">
+        <test-method is-config="true" signature="beforeMethods(java.lang.String)[pri:0, instance:com.POS.TestCases.VerifyStoreTest@7674f035]" started-at="2023-03-22T12:18:11 GST" name="beforeMethods" finished-at="2023-03-22T12:18:22 GST" duration-ms="11288" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethods -->
+        <test-method signature="validateTableHeaders()[pri:0, instance:com.POS.TestCases.VerifyStoreTest@7674f035]" started-at="2023-03-22T12:18:22 GST" name="validateTableHeaders" finished-at="2023-03-22T12:18:30 GST" duration-ms="7501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTableHeaders -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.POS.TestCases.VerifyStoreTest@7674f035]" started-at="2023-03-22T12:18:30 GST" name="afterMethod" finished-at="2023-03-22T12:18:31 GST" duration-ms="759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethods(java.lang.String)[pri:0, instance:com.POS.TestCases.VerifyStoreTest@7674f035]" started-at="2023-03-22T12:18:31 GST" name="beforeMethods" finished-at="2023-03-22T12:18:43 GST" duration-ms="11953" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethods -->
+        <test-method signature="validateShowCount()[pri:1, instance:com.POS.TestCases.VerifyStoreTest@7674f035]" started-at="2023-03-22T12:18:43 GST" name="validateShowCount" finished-at="2023-03-22T12:18:52 GST" duration-ms="9166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateShowCount -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.POS.TestCases.VerifyStoreTest@7674f035]" started-at="2023-03-22T12:18:52 GST" name="afterMethod" finished-at="2023-03-22T12:18:53 GST" duration-ms="1489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethods(java.lang.String)[pri:0, instance:com.POS.TestCases.VerifyStoreTest@7674f035]" started-at="2023-03-22T12:18:53 GST" name="beforeMethods" finished-at="2023-03-22T12:19:06 GST" duration-ms="12457" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethods -->
+        <test-method signature="validateAddStore()[pri:2, instance:com.POS.TestCases.VerifyStoreTest@7674f035]" started-at="2023-03-22T12:19:06 GST" name="validateAddStore" finished-at="2023-03-22T12:19:16 GST" duration-ms="9769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddStore -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.POS.TestCases.VerifyStoreTest@7674f035]" started-at="2023-03-22T12:19:16 GST" name="afterMethod" finished-at="2023-03-22T12:19:16 GST" duration-ms="553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethods(java.lang.String)[pri:0, instance:com.POS.TestCases.VerifyStoreTest@7674f035]" started-at="2023-03-22T12:19:16 GST" name="beforeMethods" finished-at="2023-03-22T12:19:24 GST" duration-ms="7397" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethods -->
+        <test-method signature="validateSearchStore()[pri:3, instance:com.POS.TestCases.VerifyStoreTest@7674f035]" started-at="2023-03-22T12:19:24 GST" name="validateSearchStore" finished-at="2023-03-22T12:19:29 GST" duration-ms="5763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchStore -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.POS.TestCases.VerifyStoreTest@7674f035]" started-at="2023-03-22T12:19:29 GST" name="afterMethod" finished-at="2023-03-22T12:19:30 GST" duration-ms="293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethods(java.lang.String)[pri:0, instance:com.POS.TestCases.VerifyStoreTest@7674f035]" started-at="2023-03-22T12:19:30 GST" name="beforeMethods" finished-at="2023-03-22T12:19:35 GST" duration-ms="5667" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethods -->
+        <test-method signature="validateEditStore()[pri:4, instance:com.POS.TestCases.VerifyStoreTest@7674f035]" started-at="2023-03-22T12:19:35 GST" name="validateEditStore" finished-at="2023-03-22T12:19:44 GST" duration-ms="9095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateEditStore -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.POS.TestCases.VerifyStoreTest@7674f035]" started-at="2023-03-22T12:19:44 GST" name="afterMethod" finished-at="2023-03-22T12:19:45 GST" duration-ms="433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethods(java.lang.String)[pri:0, instance:com.POS.TestCases.VerifyStoreTest@7674f035]" started-at="2023-03-22T12:19:45 GST" name="beforeMethods" finished-at="2023-03-22T12:19:50 GST" duration-ms="5260" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethods -->
+        <test-method signature="validateStoreSorting()[pri:5, instance:com.POS.TestCases.VerifyStoreTest@7674f035]" started-at="2023-03-22T12:19:50 GST" name="validateStoreSorting" finished-at="2023-03-22T12:19:56 GST" duration-ms="5794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateStoreSorting -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.POS.TestCases.VerifyStoreTest@7674f035]" started-at="2023-03-22T12:19:56 GST" name="afterMethod" finished-at="2023-03-22T12:19:56 GST" duration-ms="304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.POS.TestCases.VerifyStoreTest -->
+      <class name="com.POS.TestCases.VerifyStoreManageTest">
+        <test-method is-config="true" signature="beforeMethods(java.lang.String)[pri:0, instance:com.POS.TestCases.VerifyStoreManageTest@69e153c5]" started-at="2023-03-22T12:19:56 GST" name="beforeMethods" finished-at="2023-03-22T12:20:02 GST" duration-ms="5754" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethods -->
+        <test-method signature="validateAddStoreTable()[pri:3, instance:com.POS.TestCases.VerifyStoreManageTest@69e153c5]" started-at="2023-03-22T12:20:02 GST" name="validateAddStoreTable" finished-at="2023-03-22T12:20:31 GST" duration-ms="29045" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddStoreTable -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.POS.TestCases.VerifyStoreManageTest@69e153c5]" started-at="2023-03-22T12:20:31 GST" name="afterMethod" finished-at="2023-03-22T12:20:31 GST" duration-ms="384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethods(java.lang.String)[pri:0, instance:com.POS.TestCases.VerifyStoreManageTest@69e153c5]" started-at="2023-03-22T12:20:31 GST" name="beforeMethods" finished-at="2023-03-22T12:20:40 GST" duration-ms="8232" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethods -->
+        <test-method signature="validateEditStoreTable()[pri:4, instance:com.POS.TestCases.VerifyStoreManageTest@69e153c5]" started-at="2023-03-22T12:20:40 GST" name="validateEditStoreTable" finished-at="2023-03-22T12:21:16 GST" duration-ms="36595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateEditStoreTable -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.POS.TestCases.VerifyStoreManageTest@69e153c5]" started-at="2023-03-22T12:21:16 GST" name="afterMethod" finished-at="2023-03-22T12:21:17 GST" duration-ms="433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethods(java.lang.String)[pri:0, instance:com.POS.TestCases.VerifyStoreManageTest@69e153c5]" started-at="2023-03-22T12:21:17 GST" name="beforeMethods" finished-at="2023-03-22T12:21:22 GST" duration-ms="5599" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethods -->
+        <test-method signature="validateDeleteStoreTbl()[pri:5, instance:com.POS.TestCases.VerifyStoreManageTest@69e153c5]" started-at="2023-03-22T12:21:22 GST" name="validateDeleteStoreTbl" finished-at="2023-03-22T12:21:39 GST" duration-ms="17022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDeleteStoreTbl -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.POS.TestCases.VerifyStoreManageTest@69e153c5]" started-at="2023-03-22T12:21:39 GST" name="afterMethod" finished-at="2023-03-22T12:21:40 GST" duration-ms="454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethods(java.lang.String)[pri:0, instance:com.POS.TestCases.VerifyStoreManageTest@69e153c5]" started-at="2023-03-22T12:21:40 GST" name="beforeMethods" finished-at="2023-03-22T12:21:45 GST" duration-ms="5498" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethods -->
+        <test-method signature="validateDeleteZone()[pri:6, instance:com.POS.TestCases.VerifyStoreManageTest@69e153c5]" started-at="2023-03-22T12:21:45 GST" name="validateDeleteZone" finished-at="2023-03-22T12:22:12 GST" duration-ms="26969" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDeleteZone -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.POS.TestCases.VerifyStoreManageTest@69e153c5]" started-at="2023-03-22T12:22:12 GST" name="afterMethod" finished-at="2023-03-22T12:22:13 GST" duration-ms="442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethods(java.lang.String)[pri:0, instance:com.POS.TestCases.VerifyStoreManageTest@69e153c5]" started-at="2023-03-22T12:22:13 GST" name="beforeMethods" finished-at="2023-03-22T12:22:19 GST" duration-ms="6701" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethods -->
+        <test-method retried="true" signature="validateDeleteStore()[pri:7, instance:com.POS.TestCases.VerifyStoreManageTest@69e153c5]" started-at="2023-03-22T12:22:19 GST" name="validateDeleteStore" finished-at="2023-03-22T12:22:37 GST" duration-ms="17776" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//td[@class='dataTables_empty']"}
+  (Session info: MicrosoftEdge=111.0.1661.44)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [32c0637625ea50eb19dc078c91056bde, findElement {using=xpath, value=//td[@class='dataTables_empty']}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.44, ms:edgeOptions: {debuggerAddress: localhost:52347}, msedge: {msedgedriverVersion: 111.0.1661.44 (fc2a57ec5a41..., userDataDir: C:\Users\Thomas\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52347/devtoo..., se:cdpVersion: 111.0.1661.44, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 32c0637625ea50eb19dc078c91056bde]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//td[@class='dataTables_empty']"}
+  (Session info: MicrosoftEdge=111.0.1661.44)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [32c0637625ea50eb19dc078c91056bde, findElement {using=xpath, value=//td[@class='dataTables_empty']}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.44, ms:edgeOptions: {debuggerAddress: localhost:52347}, msedge: {msedgedriverVersion: 111.0.1661.44 (fc2a57ec5a41..., userDataDir: C:\Users\Thomas\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52347/devtoo..., se:cdpVersion: 111.0.1661.44, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 32c0637625ea50eb19dc078c91056bde
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy22.getText(Unknown Source)
+at com.POS.TestCases.VerifyStoreManageTest.validateDeleteStore(VerifyStoreManageTest.java:107)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDeleteStore -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.POS.TestCases.VerifyStoreManageTest@69e153c5]" started-at="2023-03-22T12:22:37 GST" name="afterMethod" finished-at="2023-03-22T12:22:38 GST" duration-ms="1085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethods(java.lang.String)[pri:0, instance:com.POS.TestCases.VerifyStoreManageTest@69e153c5]" started-at="2023-03-22T12:22:38 GST" name="beforeMethods" finished-at="2023-03-22T12:22:47 GST" duration-ms="8411" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethods -->
+        <test-method signature="validateDeleteStore()[pri:7, instance:com.POS.TestCases.VerifyStoreManageTest@69e153c5]" started-at="2023-03-22T12:22:47 GST" name="validateDeleteStore" finished-at="2023-03-22T12:22:59 GST" duration-ms="12209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDeleteStore -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.POS.TestCases.VerifyStoreManageTest@69e153c5]" started-at="2023-03-22T12:22:59 GST" name="afterMethod" finished-at="2023-03-22T12:22:59 GST" duration-ms="441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.POS.TestCases.VerifyStoreManageTest -->
+      <class name="com.POS.TestCases.VerifyUserLoginTest">
+        <test-method is-config="true" signature="loadFiles()[pri:0, instance:com.POS.TestCases.VerifyUserLoginTest@449a4f23]" started-at="2023-03-22T12:16:07 GST" name="loadFiles" finished-at="2023-03-22T12:16:07 GST" duration-ms="770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadFiles -->
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.POS.TestCases.VerifyUserLoginTest@449a4f23]" started-at="2023-03-22T12:16:07 GST" name="loadConfig" finished-at="2023-03-22T12:16:07 GST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method is-config="true" signature="beforeMethods(java.lang.String)[pri:0, instance:com.POS.TestCases.VerifyUserLoginTest@449a4f23]" started-at="2023-03-22T12:16:07 GST" name="beforeMethods" finished-at="2023-03-22T12:17:01 GST" duration-ms="53650" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethods -->
+        <test-method signature="validateLogin()[pri:1, instance:com.POS.TestCases.VerifyUserLoginTest@449a4f23]" started-at="2023-03-22T12:17:01 GST" name="validateLogin" finished-at="2023-03-22T12:17:09 GST" duration-ms="7831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.POS.TestCases.VerifyUserLoginTest@449a4f23]" started-at="2023-03-22T12:17:09 GST" name="afterMethod" finished-at="2023-03-22T12:17:15 GST" duration-ms="5556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethods(java.lang.String)[pri:0, instance:com.POS.TestCases.VerifyUserLoginTest@449a4f23]" started-at="2023-03-22T12:17:19 GST" name="beforeMethods" finished-at="2023-03-22T12:17:33 GST" duration-ms="14486" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethods -->
+        <test-method signature="validateAllLogin(java.lang.String,java.lang.String)[pri:2, instance:com.POS.TestCases.VerifyUserLoginTest@449a4f23]" started-at="2023-03-22T12:17:33 GST" name="validateAllLogin" data-provider="getLoginUsers" finished-at="2023-03-22T12:17:35 GST" duration-ms="1523" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[InvalidUn]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[InvalidPswd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAllLogin -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.POS.TestCases.VerifyUserLoginTest@449a4f23]" started-at="2023-03-22T12:17:35 GST" name="afterMethod" finished-at="2023-03-22T12:17:35 GST" duration-ms="555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethods(java.lang.String)[pri:0, instance:com.POS.TestCases.VerifyUserLoginTest@449a4f23]" started-at="2023-03-22T12:17:35 GST" name="beforeMethods" finished-at="2023-03-22T12:17:45 GST" duration-ms="9632" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethods -->
+        <test-method signature="validateAllLogin(java.lang.String,java.lang.String)[pri:2, instance:com.POS.TestCases.VerifyUserLoginTest@449a4f23]" started-at="2023-03-22T12:17:45 GST" name="validateAllLogin" data-provider="getLoginUsers" finished-at="2023-03-22T12:17:46 GST" duration-ms="1414" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[InvalidPswd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAllLogin -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.POS.TestCases.VerifyUserLoginTest@449a4f23]" started-at="2023-03-22T12:17:46 GST" name="afterMethod" finished-at="2023-03-22T12:17:47 GST" duration-ms="313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethods(java.lang.String)[pri:0, instance:com.POS.TestCases.VerifyUserLoginTest@449a4f23]" started-at="2023-03-22T12:17:47 GST" name="beforeMethods" finished-at="2023-03-22T12:17:56 GST" duration-ms="9044" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethods -->
+        <test-method signature="validateAllLogin(java.lang.String,java.lang.String)[pri:2, instance:com.POS.TestCases.VerifyUserLoginTest@449a4f23]" started-at="2023-03-22T12:17:56 GST" name="validateAllLogin" data-provider="getLoginUsers" finished-at="2023-03-22T12:17:57 GST" duration-ms="1677" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[InvalidUn]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAllLogin -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.POS.TestCases.VerifyUserLoginTest@449a4f23]" started-at="2023-03-22T12:17:57 GST" name="afterMethod" finished-at="2023-03-22T12:17:58 GST" duration-ms="259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.POS.TestCases.VerifyUserLoginTest@449a4f23]" started-at="2023-03-22T12:30:05 GST" name="tearDown" finished-at="2023-03-22T12:30:06 GST" duration-ms="880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.POS.TestCases.VerifyUserLoginTest -->
+      <class name="com.POS.TestCases.VerifyCategoryTest">
+        <test-method is-config="true" signature="beforeMethods(java.lang.String)[pri:0, instance:com.POS.TestCases.VerifyCategoryTest@25ce9dc4]" started-at="2023-03-22T12:26:32 GST" name="beforeMethods" finished-at="2023-03-22T12:26:38 GST" duration-ms="6311" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethods -->
+        <test-method signature="validateCatTblHeaders()[pri:0, instance:com.POS.TestCases.VerifyCategoryTest@25ce9dc4]" started-at="2023-03-22T12:26:38 GST" name="validateCatTblHeaders" finished-at="2023-03-22T12:26:43 GST" duration-ms="5456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCatTblHeaders -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.POS.TestCases.VerifyCategoryTest@25ce9dc4]" started-at="2023-03-22T12:26:43 GST" name="afterMethod" finished-at="2023-03-22T12:26:44 GST" duration-ms="443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethods(java.lang.String)[pri:0, instance:com.POS.TestCases.VerifyCategoryTest@25ce9dc4]" started-at="2023-03-22T12:26:44 GST" name="beforeMethods" finished-at="2023-03-22T12:26:49 GST" duration-ms="5387" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethods -->
+        <test-method signature="validateAddCategory()[pri:2, instance:com.POS.TestCases.VerifyCategoryTest@25ce9dc4]" started-at="2023-03-22T12:26:49 GST" name="validateAddCategory" finished-at="2023-03-22T12:26:57 GST" duration-ms="7599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddCategory -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.POS.TestCases.VerifyCategoryTest@25ce9dc4]" started-at="2023-03-22T12:26:57 GST" name="afterMethod" finished-at="2023-03-22T12:26:57 GST" duration-ms="372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.POS.TestCases.VerifyCategoryTest -->
+      <class name="com.POS.TestCases.VerifySettingsTest">
+        <test-method is-config="true" signature="beforeMethods(java.lang.String)[pri:0, instance:com.POS.TestCases.VerifySettingsTest@74ea2410]" started-at="2023-03-22T12:26:57 GST" name="beforeMethods" finished-at="2023-03-22T12:27:03 GST" duration-ms="6249" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethods -->
+        <test-method signature="validateAddUser()[pri:1, instance:com.POS.TestCases.VerifySettingsTest@74ea2410]" started-at="2023-03-22T12:27:03 GST" name="validateAddUser" finished-at="2023-03-22T12:27:13 GST" duration-ms="9781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddUser -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.POS.TestCases.VerifySettingsTest@74ea2410]" started-at="2023-03-22T12:27:13 GST" name="afterMethod" finished-at="2023-03-22T12:27:14 GST" duration-ms="480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.POS.TestCases.VerifySettingsTest -->
+      <class name="com.POS.TestCases.VerifyWaiterTest">
+        <test-method is-config="true" signature="beforeMethods(java.lang.String)[pri:0, instance:com.POS.TestCases.VerifyWaiterTest@17f62e33]" started-at="2023-03-22T12:27:14 GST" name="beforeMethods" finished-at="2023-03-22T12:27:19 GST" duration-ms="4834" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethods -->
+        <test-method signature="validateShowCount()[pri:1, instance:com.POS.TestCases.VerifyWaiterTest@17f62e33]" started-at="2023-03-22T12:27:19 GST" name="validateShowCount" finished-at="2023-03-22T12:27:24 GST" duration-ms="5519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateShowCount -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.POS.TestCases.VerifyWaiterTest@17f62e33]" started-at="2023-03-22T12:27:24 GST" name="afterMethod" finished-at="2023-03-22T12:27:25 GST" duration-ms="495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethods(java.lang.String)[pri:0, instance:com.POS.TestCases.VerifyWaiterTest@17f62e33]" started-at="2023-03-22T12:27:25 GST" name="beforeMethods" finished-at="2023-03-22T12:27:30 GST" duration-ms="5107" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethods -->
+        <test-method retried="true" signature="validateAddWaiter()[pri:2, instance:com.POS.TestCases.VerifyWaiterTest@17f62e33]" started-at="2023-03-22T12:27:30 GST" name="validateAddWaiter" finished-at="2023-03-22T12:29:22 GST" duration-ms="112025" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[@data-target='#AddWaiter']"}
+  (Session info: MicrosoftEdge=111.0.1661.44)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [4947b95de50653cdbd12fbd987e78eb9, findElement {using=xpath, value=//button[@data-target='#AddWaiter']}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.44, ms:edgeOptions: {debuggerAddress: localhost:53147}, msedge: {msedgedriverVersion: 111.0.1661.44 (fc2a57ec5a41..., userDataDir: C:\Users\Thomas\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53147/devtoo..., se:cdpVersion: 111.0.1661.44, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4947b95de50653cdbd12fbd987e78eb9]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@data-target='#AddWaiter']"}
+  (Session info: MicrosoftEdge=111.0.1661.44)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [4947b95de50653cdbd12fbd987e78eb9, findElement {using=xpath, value=//button[@data-target='#AddWaiter']}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.44, ms:edgeOptions: {debuggerAddress: localhost:53147}, msedge: {msedgedriverVersion: 111.0.1661.44 (fc2a57ec5a41..., userDataDir: C:\Users\Thomas\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53147/devtoo..., se:cdpVersion: 111.0.1661.44, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4947b95de50653cdbd12fbd987e78eb9
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy22.isDisplayed(Unknown Source)
+at com.POS.TestCases.VerifyWaiterTest.validateAddWaiter(VerifyWaiterTest.java:34)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddWaiter -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.POS.TestCases.VerifyWaiterTest@17f62e33]" started-at="2023-03-22T12:29:22 GST" name="afterMethod" finished-at="2023-03-22T12:29:22 GST" duration-ms="482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethods(java.lang.String)[pri:0, instance:com.POS.TestCases.VerifyWaiterTest@17f62e33]" started-at="2023-03-22T12:29:22 GST" name="beforeMethods" finished-at="2023-03-22T12:29:28 GST" duration-ms="5896" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethods -->
+        <test-method signature="validateAddWaiter()[pri:2, instance:com.POS.TestCases.VerifyWaiterTest@17f62e33]" started-at="2023-03-22T12:29:28 GST" name="validateAddWaiter" finished-at="2023-03-22T12:29:37 GST" duration-ms="8705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddWaiter -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.POS.TestCases.VerifyWaiterTest@17f62e33]" started-at="2023-03-22T12:29:37 GST" name="afterMethod" finished-at="2023-03-22T12:29:37 GST" duration-ms="305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethods(java.lang.String)[pri:0, instance:com.POS.TestCases.VerifyWaiterTest@17f62e33]" started-at="2023-03-22T12:29:37 GST" name="beforeMethods" finished-at="2023-03-22T12:29:44 GST" duration-ms="6510" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethods -->
+        <test-method signature="validateSearchWaiter()[pri:3, instance:com.POS.TestCases.VerifyWaiterTest@17f62e33]" started-at="2023-03-22T12:29:44 GST" name="validateSearchWaiter" finished-at="2023-03-22T12:29:49 GST" duration-ms="5843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchWaiter -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.POS.TestCases.VerifyWaiterTest@17f62e33]" started-at="2023-03-22T12:29:49 GST" name="afterMethod" finished-at="2023-03-22T12:29:50 GST" duration-ms="307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethods(java.lang.String)[pri:0, instance:com.POS.TestCases.VerifyWaiterTest@17f62e33]" started-at="2023-03-22T12:29:50 GST" name="beforeMethods" finished-at="2023-03-22T12:29:55 GST" duration-ms="4968" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethods -->
+        <test-method signature="validateEditWaiter()[pri:4, instance:com.POS.TestCases.VerifyWaiterTest@17f62e33]" started-at="2023-03-22T12:29:55 GST" name="validateEditWaiter" finished-at="2023-03-22T12:30:04 GST" duration-ms="9702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateEditWaiter -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.POS.TestCases.VerifyWaiterTest@17f62e33]" started-at="2023-03-22T12:30:04 GST" name="afterMethod" finished-at="2023-03-22T12:30:05 GST" duration-ms="326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.POS.TestCases.VerifyWaiterTest -->
+    </test> <!-- QALegendTest -->
+  </suite> <!-- RestaurantSuite -->
+</testng-results>

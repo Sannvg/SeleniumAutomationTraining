@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RestaurantSuite]" guice-stage="DEVELOPMENT">
+  <parameter name="Browser" value="Edge"/>
+  <listeners>
+    <listener class-name="com.POS.Utilities.Listeners"/>
+    <listener class-name="com.POS.Utilities.RetryAnalyzerListener"/>
+  </listeners>
+  <test thread-count="5" name="QALegendTest(failed)">
+    <classes>
+      <class name="com.POS.TestCases.VerifyStoreManageTest">
+        <methods>
+          <include name="beforeMethods"/>
+          <include name="validateDeleteStore"/>
+          <include name="loadFiles"/>
+          <include name="loadConfig"/>
+          <include name="afterMethod"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.POS.TestCases.VerifyStoreManageTest -->
+      <class name="com.POS.TestCases.VerifyWaiterTest">
+        <methods>
+          <include name="beforeMethods"/>
+          <include name="loadFiles"/>
+          <include name="validateAddWaiter"/>
+          <include name="loadConfig"/>
+          <include name="afterMethod"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.POS.TestCases.VerifyWaiterTest -->
+    </classes>
+  </test> <!-- QALegendTest(failed) -->
+</suite> <!-- Failed suite [RestaurantSuite] -->
