@@ -75,7 +75,7 @@ public class VerifyHomePageTest extends BaseClass {
 
 	}
 
-	@Test(priority = 4, groups = { "Smoke" },enabled=false)
+	@Test(priority = 4, groups = { "Smoke" })
 	public void validateMenuClick() {
 		Log.startTestCase("VerifyHomePageTest--menuElementsClick");
 		objLogin.loginFn();
