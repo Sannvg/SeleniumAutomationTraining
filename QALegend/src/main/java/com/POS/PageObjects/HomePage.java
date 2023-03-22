@@ -12,6 +12,8 @@ public class HomePage extends BaseClass {
 	private WebElement imgLogo;
 	@FindBy(xpath = "//ul[@class='nav navbar-nav']")
 	private List<WebElement> listMenu;
+	@FindBy(xpath = "//button[@data-target='#bs-example-navbar-collapse-1']")
+	private WebElement btnMenu;
 	@FindBy(xpath = "//a[@href='https://qalegend.com/restaurant/products']")
 	private WebElement menuPdt;
 	@FindBy(xpath = "//a[@href='https://qalegend.com/restaurant/stores']")
@@ -55,6 +57,9 @@ public class HomePage extends BaseClass {
 
 	public List<WebElement> menuList() {
 		return listMenu;
+	}
+	public WebElement btnMenu() {
+		return btnMenu;
 	}
 
 	public WebElement menuPdt() {

@@ -11,7 +11,7 @@ import com.POS.BaseClass.BaseClass;
 import com.POS.Utilities.Log;
 
 public class VerifyHomePageTest extends BaseClass {
-	@Test(priority = 1, groups = { "Smoke" },enabled=false)
+	@Test(priority = 1, groups = { "Smoke" })
 	public void validateElementsDisplay() {
 		Log.startTestCase("VerifyHomePageTest--displayElements");
 		objLogin.loginFn();
@@ -28,7 +28,7 @@ public class VerifyHomePageTest extends BaseClass {
 		Log.endTestCase("VerifyHomePageTest--displayElements");
 	}
 
-	@Test(priority = 2, groups = { "Smoke" },enabled=false)
+	@Test(priority = 2, groups = { "Smoke" })
 	public void validateLanguageSelection() {
 		Log.startTestCase("VerifyHomePageTest--languageListed");
 		objLogin.loginFn();
