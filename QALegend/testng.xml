@@ -8,9 +8,9 @@
 	<parameter name="Browser" value="Edge"></parameter>
 	<test thread-count="5" name="QALegendTest">
 		<classes>
-			<class name="com.POS.TestCases.VerifyUserLoginTest" />
-			<!--<class name="com.POS.TestCases.VerifyHomePageTest" />
-			<class name="com.POS.TestCases.VerifyStoreTest" />
+			<!--<class name="com.POS.TestCases.VerifyUserLoginTest" />-->
+			<class name="com.POS.TestCases.VerifyHomePageTest" />
+			<!--<class name="com.POS.TestCases.VerifyStoreTest" />
 			<class name="com.POS.TestCases.VerifyStoreManageTest" />
 			<class name="com.POS.TestCases.VerifyProductPageTest" />
 			<class name="com.POS.TestCases.VerifyCategoryTest" />
