@@ -17,12 +17,15 @@ public class VerifyHomePageTest extends BaseClass {
 		objLogin.loginFn();
 		act.findElement(getDriver(), objHome.logoImage());
 		Assert.assertTrue(objHome.logoImage().isDisplayed());
+		if(objHome.btnMenu().isDisplayed()) {
+			act.click1(objHome.btnMenu(), "Menu");
+		}		
 		act.findElement(getDriver(), objHome.loginLabel());
 		Assert.assertTrue(objHome.loginLabel().isDisplayed());
 		act.findElement(getDriver(), objHome.loginImage());
 		Assert.assertTrue(objHome.logoImage().isDisplayed());
 		act.findElement(getDriver(), objHome.logout());
-		Assert.assertTrue(objHome.logout().isDisplayed());
+		Assert.assertTrue(objHome.logout().isDisplayed());		
 		Log.info("Home Page Elements Display");
 		objHome.logOutFn();
 		Log.endTestCase("VerifyHomePageTest--displayElements");
