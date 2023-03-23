@@ -8,16 +8,16 @@
   </listeners>
   <test thread-count="5" name="QALegendTest(failed)">
     <classes>
-      <class name="com.POS.TestCases.VerifyHomePageTest">
+      <class name="com.POS.TestCases.VerifyWaiterTest">
         <methods>
           <include name="beforeMethods"/>
           <include name="loadFiles"/>
+          <include name="validateShowCount"/>
           <include name="loadConfig"/>
-          <include name="validateLanguageSelection"/>
           <include name="afterMethod"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.POS.TestCases.VerifyHomePageTest -->
+      </class> <!-- com.POS.TestCases.VerifyWaiterTest -->
     </classes>
   </test> <!-- QALegendTest(failed) -->
 </suite> <!-- Failed suite [RestaurantSuite] -->

@@ -105,11 +105,10 @@ public class BaseClass {
 		} else if (browserName.equalsIgnoreCase("Edge")) {
 			driver.set(new EdgeDriver());
 		}
-		getDriver().manage().window().maximize();
-		act = new Action();
-		//act.implicitWait(getDriver(), 10);// Implicit TimeOuts
+		getDriver().manage().window().maximize();	
 		objWait = new Waits();
 		objWait.implicitWait(getDriver(), 10);
+		act = new Action();
 		act.pageLoadTimeOut(getDriver(), 30); // PageLoad TimeOuts
 		getDriver().get(prop.getProperty("Url"));
 	}
