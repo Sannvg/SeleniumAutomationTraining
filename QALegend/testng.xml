@@ -5,17 +5,17 @@
 		<listener class-name="com.POS.Utilities.Listeners"></listener>
 		<listener class-name="com.POS.Utilities.RetryAnalyzerListener"></listener>
 	</listeners>
-	<parameter name="Browser" value="FireFox"></parameter>
+	<parameter name="Browser" value="Edge"></parameter>
 	<test thread-count="5" name="QALegendTest">
 		<classes>
-			<!--<class name="com.POS.TestCases.VerifyUserLoginTest" />-->
+			<!--<class name="com.POS.TestCases.VerifyUserLoginTest" />
 			<class name="com.POS.TestCases.VerifyHomePageTest" />
-			<!--<class name="com.POS.TestCases.VerifyStoreTest" />
+			<class name="com.POS.TestCases.VerifyStoreTest" />
 			<class name="com.POS.TestCases.VerifyStoreManageTest" />
-			<class name="com.POS.TestCases.VerifyProductPageTest" />
+			<class name="com.POS.TestCases.VerifyProductPageTest" />-->
 			<class name="com.POS.TestCases.VerifyCategoryTest" />
-			<class name="com.POS.TestCases.VerifySettingsTest" />
-			<class name="com.POS.TestCases.VerifyWaiterTest" />-->
+		<!--	<class name="com.POS.TestCases.VerifySettingsTest" />-->
+			<class name="com.POS.TestCases.VerifyWaiterTest" />
 		</classes>
 	</test> <!-- QALegendTest -->
 </suite> <!-- RestaurantSuite -->

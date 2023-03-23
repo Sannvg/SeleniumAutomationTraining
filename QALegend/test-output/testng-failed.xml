@@ -8,26 +8,29 @@
   </listeners>
   <test thread-count="5" name="QALegendTest(failed)">
     <classes>
-      <class name="com.POS.TestCases.VerifyStoreManageTest">
+      <class name="com.POS.TestCases.VerifyHomePageTest">
+        <methods>
+          <include name="validateMenuDisplay"/>
+          <include name="beforeMethods"/>
+          <include name="loadFiles"/>
+          <include name="validateMenuClick"/>
+          <include name="loadConfig"/>
+          <include name="validateLanguageSelection"/>
+          <include name="afterMethod"/>
+          <include name="tearDown"/>
+          <include name="validateElementsDisplay"/>
+        </methods>
+      </class> <!-- com.POS.TestCases.VerifyHomePageTest -->
+      <class name="com.POS.TestCases.VerifyUserLoginTest">
         <methods>
           <include name="beforeMethods"/>
-          <include name="validateDeleteStore"/>
           <include name="loadFiles"/>
           <include name="loadConfig"/>
+          <include name="validateAllLogin"/>
           <include name="afterMethod"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.POS.TestCases.VerifyStoreManageTest -->
-      <class name="com.POS.TestCases.VerifyWaiterTest">
-        <methods>
-          <include name="beforeMethods"/>
-          <include name="loadFiles"/>
-          <include name="validateAddWaiter"/>
-          <include name="loadConfig"/>
-          <include name="afterMethod"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.POS.TestCases.VerifyWaiterTest -->
+      </class> <!-- com.POS.TestCases.VerifyUserLoginTest -->
     </classes>
   </test> <!-- QALegendTest(failed) -->
 </suite> <!-- Failed suite [RestaurantSuite] -->
