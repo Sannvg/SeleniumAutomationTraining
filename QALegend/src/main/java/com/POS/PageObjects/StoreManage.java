@@ -134,13 +134,14 @@ public class StoreManage extends BaseClass {
 		return editStoreTblSubmit;
 	}
 
-	public void beforefn() throws Exception {
+	public void beforefnStoreManage() throws Exception {
 		objLogin.loginFn();
+		objHome.btnMenuVisible();
 		act.click1(objStore.menuStore(), "Store Menu");
 		act.click1(objStore.txtSearchStore(), "Search Store");
 		ArrayList excelData = data.getData("EStore");
 		act.type(objStore.txtSearchStore(), (String) excelData.get(0));
-		act.explicitWait(getDriver(), objStore.btnmanageStore(), Duration.ofSeconds(10));
+		objWait.explicitWaitClickable(getDriver(), objStore.btnmanageStore(), Duration.ofSeconds(10));
 		act.click1(objStore.btnmanageStore(), "Manage Store ");
 	}
 }

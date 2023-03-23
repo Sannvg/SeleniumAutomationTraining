@@ -60,7 +60,7 @@ public class Category extends BaseClass {
 	}
 
 	public WebElement tblCategory() {
-		act.fluentWait(getDriver(), tblCategory, 5);
+		objWait.fluentWait(getDriver(), tblCategory, 5);
 		return tblCategory;
 	}
 
@@ -114,6 +114,12 @@ public class Category extends BaseClass {
 
 	public WebElement btnSubmitAddCat() {
 		return btnSubmitAddCat;
+	}
+	
+	public void beforeCatfn() {
+		objHome.btnMenuVisible();		
+		act.click1(objHome.menuCategory(), "Category Menu");
+		act.click1(objHome.menuCatPdt(), "Category Pdt");
 	}
 
 }

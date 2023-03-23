@@ -26,8 +26,8 @@ public class Login extends BaseClass {
 		return Logo;
 	}
 
-	public WebElement lblLogin() {
-		act.explicitWait(getDriver(), lblLogin, Duration.ofSeconds(10));
+	public WebElement lblLogin() {		
+		objWait.explicitWaitVisible(getDriver(), lblLogin, Duration.ofSeconds(10));
 		return lblLogin;
 	}
 

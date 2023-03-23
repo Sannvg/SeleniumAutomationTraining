@@ -16,6 +16,7 @@ public class VerifyStoreTest extends BaseClass {
 	public void validateShowCount() {
 		Log.startTestCase("VerifyStoreTest--validateShowCount");
 		objLogin.loginFn();
+		objHome.btnMenuVisible();
 		act.click1(objHome.menuStore(), "Store Menu");
 		act.selectByVisibleText("50", objStore.drpShowStore());
 		int rwcount = act.getRowCount(objStore.tableStore());
@@ -30,6 +31,7 @@ public class VerifyStoreTest extends BaseClass {
 	public void validateTableHeaders() {
 		Log.startTestCase("VerifyStoreTest--validateTableHeaders");
 		objLogin.loginFn();
+		objHome.btnMenuVisible();
 		act.click1(objHome.menuStore(), "Store Menu");
 		List<WebElement> storetblHdrs = objStore.tblStoreHeaders();
 		List<String> storeList = new ArrayList<String>();
@@ -60,6 +62,7 @@ public class VerifyStoreTest extends BaseClass {
 	public void validateAddStore() throws Exception {
 		Log.startTestCase("VerifyStoreTest--validateAddStore");
 		objLogin.loginFn();
+		objHome.btnMenuVisible();
 		act.click1(objHome.menuStore(), "Store Menu");
 		act.click1(objStore.btnAddStore(), "Add Store");
 		ArrayList excelData = data.getData("Store");
@@ -72,7 +75,6 @@ public class VerifyStoreTest extends BaseClass {
 		act.type(objStore.storeCustFooter(), (String) excelData.get(6));
 		act.click1(objStore.storeAddSubmit(), "Add Store Submit");
 		Log.info("Add Store Details entered");
-		act.fluentWait(getDriver(), objStore.txtSearchStore(), 5);
 		act.click1(objStore.txtSearchStore(), "Search Added Product");
 		act.type(objStore.txtSearchStore(), (String) excelData.get(0));
 		int tblRowCnt = act.getRowCount(objStore.tableStore());
@@ -85,11 +87,11 @@ public class VerifyStoreTest extends BaseClass {
 	public void validateSearchStore() {
 		Log.startTestCase("VerifyStoreTest--validateSearchStore");
 		objLogin.loginFn();
+		objHome.btnMenuVisible();
 		act.click1(objHome.menuStore(), "Store Menu");
 		act.click1(objStore.txtSearchStore(), "Search Store");
 		Log.info("Search Store Details entered");
 		act.type(objStore.txtSearchStore(), "Test OBS Store");
-		act.fluentWait(getDriver(), objStore.tableStore(), 5);
 		int tblRowCnt = act.getRowCount(objStore.tableStore());
 		Assert.assertTrue(tblRowCnt > 0, "Search Store is displayed");
 		objHome.logOutFn();
@@ -100,6 +102,7 @@ public class VerifyStoreTest extends BaseClass {
 	public void validateEditStore() throws Exception {
 		Log.startTestCase("VerifyStoreTest--validateEditStore");
 		objLogin.loginFn();
+		objHome.btnMenuVisible();
 		act.click1(objHome.menuStore(), "Store Menu");
 		act.click1(objStore.txtSearchStore(), "Search Store");
 		act.type(objStore.txtSearchStore(), "Test OBS Store");	
@@ -121,6 +124,7 @@ public class VerifyStoreTest extends BaseClass {
 	public void validateStoreSorting() {
 		Log.startTestCase("VerifyStoreTest--validateStoreSorting");
 		objLogin.loginFn();
+		objHome.btnMenuVisible();
 		act.click1(objHome.menuStore(), "Store Menu");
 		String strFirstNm = objStore.firstElement().getText();
 		act.click1(objStore.btnAscSort(), "Ascending Sorting");

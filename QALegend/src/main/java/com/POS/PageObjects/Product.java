@@ -135,5 +135,12 @@ public class Product extends BaseClass {
 	public WebElement btnPrintMenu() {
 		return btnPrintMenu;
 	}
+	
+	public void beforefnPdt() {
+		objLogin.loginFn();
+		objHome.btnMenuVisible();
+		act.click1(objHome.btnMenu(), "Menu");
+		act.click1(objHome.menuPdt(), "Product Menu");
+	}
 
 }

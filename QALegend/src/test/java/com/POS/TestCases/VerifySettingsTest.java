@@ -11,6 +11,7 @@ public class VerifySettingsTest extends BaseClass {
 	public void validateAddUser() throws Exception {
 		Log.startTestCase("VerifySettingsTest--validateAddUser");
 		objLogin.loginFn();
+		objHome.btnMenuVisible();
 		act.click1(objHome.menuSettings(), "Settings Menu");
 		act.click1(objSettings.btnUsers(), "Users");
 		act.click1(objSettings.btnAddUser(), "Add User");

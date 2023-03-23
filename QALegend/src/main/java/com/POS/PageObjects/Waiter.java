@@ -98,6 +98,7 @@ public class Waiter extends BaseClass {
 
 	public void beforefnWaiter() {
 		objLogin.loginFn();
+		objHome.btnMenuVisible();
 		act.click1(objHome.menuPeople(), "People Menu");
 		act.click1(objHome.menuWaiter(), "Waiter Menu");
 	}

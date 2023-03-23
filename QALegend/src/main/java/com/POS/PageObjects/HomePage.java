@@ -110,7 +110,7 @@ public class HomePage extends BaseClass {
 		return lstlanguage;
 	}
 
-	public WebElement languageSelected() {
+	public WebElement languageSelected() {		
 		return drplanguage;
 	}
 
@@ -125,12 +125,18 @@ public class HomePage extends BaseClass {
 	public WebElement storeList() {
 		return listStore;
 	}
+	
+	public void btnMenuVisible() {
+		if(btnMenu().isDisplayed()) {
+			act.click1(btnMenu(), "Menu");
+		}
+	}
 
 	public void languageSelection(String language) {
 		List<WebElement> languagelist = lstlanguage();
 		for (WebElement l : languagelist) {
-			if (l.getText().equalsIgnoreCase(language)) {
-				act.explicitWait(getDriver(), languageSelected(), Duration.ofSeconds(10));
+			if (l.getText().equalsIgnoreCase(language)) {	
+				objWait.explicitWaitClickable(getDriver(), languageSelected(), Duration.ofSeconds(10));
 				act.click1(l, l.getText());
 			}
 		}

@@ -676,27 +676,7 @@ public class Action extends BaseClass {
 			}
 		}
 
-	}
-
-	public void fluentWait(WebDriver driver, WebElement element, int timeOut) {
-		Wait<WebDriver> wait = null;
-		try {
-			wait = new FluentWait<WebDriver>((WebDriver) driver).withTimeout(Duration.ofSeconds(20))
-					.pollingEvery(Duration.ofSeconds(2)).ignoring(Exception.class);
-			wait.until(ExpectedConditions.visibilityOf(element));
-			element.click();
-		} catch (Exception e) {
-		}
-	}
-
-	public void implicitWait(WebDriver driver, int timeOut) {
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-	}
-
-	public void explicitWait(WebDriver driver, WebElement element, Duration timeOut) {
-		WebDriverWait wait = new WebDriverWait(driver, timeOut);
-		wait.until(ExpectedConditions.visibilityOf(element));
-	}
+	}	
 
 	public void pageLoadTimeOut(WebDriver driver, int timeOut) {
 		driver.manage().timeouts().pageLoadTimeout(timeOut, TimeUnit.SECONDS);

@@ -32,7 +32,8 @@ public class VerifyHomePageTest extends BaseClass {
 	public void validateLanguageSelection() {
 		Log.startTestCase("VerifyHomePageTest--languageListed");
 		objLogin.loginFn();
-		Assert.assertTrue(objHome.storeMenu().isDisplayed());		
+		objHome.btnMenuVisible();
+		act.click1(objHome.btnMenu(), "Menu");
 		act.click1(objHome.languageSelected(), "Language Dropdown");
 		objHome.languageSelection(" Spanish");		
 		Log.info("Home Page Menu Check");
@@ -48,6 +49,7 @@ public class VerifyHomePageTest extends BaseClass {
 	public void validateMenuDisplay() {
 		Log.startTestCase("VerifyHomePageTest--menuElements");
 		objLogin.loginFn();
+		objHome.btnMenuVisible();
 		List<WebElement> menuHome = objHome.menuList();
 		List<String> menuList = new ArrayList<String>();
 		menuList.add("POS");
@@ -79,12 +81,16 @@ public class VerifyHomePageTest extends BaseClass {
 	public void validateMenuClick() {
 		Log.startTestCase("VerifyHomePageTest--menuElementsClick");
 		objLogin.loginFn();
-		Log.info("Home Page Menu Click");
+		objHome.btnMenuVisible();
+		Log.info("Home Page Menu Click");		
 		act.click1(objHome.menuPdt(), "Product Menu");
 		Assert.assertTrue(objPdt.tableProduct().isDisplayed());
+		objHome.btnMenuVisible();
 		act.click1(objHome.menuStore(), "Store Menu");
 		Assert.assertTrue(objStore.tableStore().isDisplayed());
+		objHome.btnMenuVisible();
 		act.click1(objHome.menuPeople(), "People Menu");
+		objHome.btnMenuVisible();
 		act.click1(objHome.menuWaiter(), "Waiter Menu");
 		Assert.assertTrue(objWaiter.tableWaiter().isDisplayed());
 		objHome.logOutFn();

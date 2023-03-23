@@ -31,6 +31,7 @@ import com.POS.PageObjects.Waiter;
 import com.POS.PageObjects.Category;
 import com.POS.Utilities.ExcelRead;
 import com.POS.Utilities.ExtentReport;
+import com.POS.Utilities.Waits;
 
 public class BaseClass {
 	public static Properties prop;
@@ -47,6 +48,7 @@ public class BaseClass {
 	public static EditPeople objEditPeople;
 	public static Category objCategory;
 	public static Settings objSettings;
+	public static Waits objWait;
 
 	public static ThreadLocal<RemoteWebDriver> driver = new ThreadLocal<RemoteWebDriver>();
 
@@ -73,10 +75,11 @@ public class BaseClass {
 	@Parameters("Browser")
 	@BeforeMethod(groups = { "Smoke" })
 	public void beforeMethods(String strBrowser) {
-		launchApp(strBrowser);
-		data= new ExcelRead();
+		launchApp(strBrowser);		
 		objLogin = new Login();
-		objHome = new HomePage();		
+		objHome = new HomePage();
+		data= new ExcelRead();
+		objWait = new Waits();
 		objPdt = new Product();
 		objAddPdt = new AddProduct();
 		objStore = new Store();
@@ -104,7 +107,9 @@ public class BaseClass {
 		}
 		getDriver().manage().window().maximize();
 		act = new Action();
-		act.implicitWait(getDriver(), 10);// Implicit TimeOuts
+		//act.implicitWait(getDriver(), 10);// Implicit TimeOuts
+		objWait = new Waits();
+		objWait.implicitWait(getDriver(), 10);
 		act.pageLoadTimeOut(getDriver(), 30); // PageLoad TimeOuts
 		getDriver().get(prop.getProperty("Url"));
 	}

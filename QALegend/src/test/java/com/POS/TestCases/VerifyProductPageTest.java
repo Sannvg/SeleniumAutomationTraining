@@ -13,9 +13,8 @@ import com.POS.Utilities.Log;
 public class VerifyProductPageTest extends BaseClass {
 	@Test(priority = 1, groups = { "Smoke" })
 	public void validateShowPdtTblCount() {
-		Log.startTestCase("VerifyProductPageTest--validateShowPdtTblCount");
-		objLogin.loginFn();
-		act.click1(objHome.menuPdt(), "Product Menu");
+		Log.startTestCase("VerifyProductPageTest--validateShowPdtTblCount");		
+		objPdt.beforefnPdt();
 		act.click1(objPdt.drpShowProduct(), "Show Product");
 		act.selectByVisibleText("50", objPdt.drpShowProduct());
 		Log.info("Selected show count");
@@ -32,8 +31,7 @@ public class VerifyProductPageTest extends BaseClass {
 	@Test(priority = 2)
 	public void validateFilterBySupplier() {
 		Log.startTestCase("VerifyProductPageTest--validateFilterBySupplier");
-		objLogin.loginFn();
-		act.click1(objHome.menuPdt(), "Product Menu");
+		objPdt.beforefnPdt();
 		act.click1(objPdt.drpFilterSupplier(), "Supplier Filter");
 		act.selectByVisibleText("ObsTestSupplier", objPdt.drpFilterSupplier());
 		Log.info("Selected Supplier");
@@ -47,8 +45,7 @@ public class VerifyProductPageTest extends BaseClass {
 	@Test(priority = 3)
 	public void validateFilterByPdtType() {
 		Log.startTestCase("VerifyProductPageTest--validateFilterByPdtType");
-		objLogin.loginFn();
-		act.click1(objHome.menuPdt(), "Product Menu");
+		objPdt.beforefnPdt();
 		act.click1(objPdt.drpFilterPdtType(), "Product Type Filter");
 		act.selectByVisibleText("Standard", objPdt.drpFilterPdtType());
 		Log.info("Selected Product Type");
@@ -62,8 +59,7 @@ public class VerifyProductPageTest extends BaseClass {
 	@Test(priority = 4)
 	public void validateFilterBySupPdtType() {
 		Log.startTestCase("VerifyProductPageTest--validateFilterBySupPdtType");
-		objLogin.loginFn();
-		act.click1(objHome.menuPdt(), "Product Menu");
+		objPdt.beforefnPdt();
 		act.click1(objPdt.drpFilterSupplier(), "Supplier Filter");
 		act.selectByValue(objPdt.drpFilterSupplier(), "ObsTestSupplier");
 		act.click1(objPdt.drpFilterPdtType(), "Product Type Filter");
@@ -79,10 +75,8 @@ public class VerifyProductPageTest extends BaseClass {
 	@Test(priority = 5)
 	public void validateDownloadCSV() {
 		Log.startTestCase("VerifyProductPageTest--validateDownloadCSV");
-		objLogin.loginFn();
-		act.click1(objHome.menuPdt(), "Product Menu");
+		objPdt.beforefnPdt();
 		act.click1(objPdt.lnkDownload(), "Download File");
-		act.explicitWait(getDriver(), objPdt.tableProduct(), Duration.ofSeconds(10));
 		Assert.assertTrue(objPdt.tableProduct().isDisplayed());
 		objHome.logOutFn();
 		Log.endTestCase("VerifyProductPageTest--validateDownloadCSV");
@@ -91,8 +85,7 @@ public class VerifyProductPageTest extends BaseClass {
 	@Test(priority = 6)
 	public void validateUploadCSV() {
 		Log.startTestCase("VerifyProductPageTest--validateUploadCSV");
-		objLogin.loginFn();
-		act.click1(objHome.menuPdt(), "Product Menu");
+		objPdt.beforefnPdt();
 		act.click1(objPdt.lnkUpload(), "Upload File");
 		act.click1(objPdt.btnUploadfile(), "Choose File to Upload");
 		act.type(objPdt.btnUploadfile(), System.getProperty("user.dir") + "\\Files\\TestPdt.jpg");
@@ -106,8 +99,7 @@ public class VerifyProductPageTest extends BaseClass {
 	@Test(priority = 7)
 	public void validatePrintMenu() throws Exception {
 		Log.startTestCase("VerifyProductPageTest--validatePrintMenu");
-		objLogin.loginFn();
-		act.click1(objHome.menuPdt(), "Product Menu");
+		objPdt.beforefnPdt();
 		act.click1(objPdt.lnkPrintMenu(), "Print Menu");
 		Thread.sleep(3000);
 		Robot rb = new Robot();
@@ -122,8 +114,7 @@ public class VerifyProductPageTest extends BaseClass {
 	@Test(priority = 8)
 	public void validateAddProduct() throws Exception {
 		Log.startTestCase("VerifyProductPageTest--validateAddProduct");
-		objLogin.loginFn();
-		act.click1(objHome.menuPdt(), "Product Menu");
+		objPdt.beforefnPdt();
 		act.click1(objPdt.btnAddPdt(), "Add Product");
 		ArrayList excelData = data.getData("Product");
 		act.selectByValue(objAddPdt.drpPdtType(), (String) excelData.get(0));
@@ -152,8 +143,7 @@ public class VerifyProductPageTest extends BaseClass {
 	@Test(priority = 9)
 	public void validateSearchPdt() throws Exception {
 		Log.startTestCase("VerifyProductPageTest--validateSearchPdt");
-		objLogin.loginFn();
-		act.click1(objHome.menuPdt(), "Product Menu");
+		objPdt.beforefnPdt();
 		act.click1(objPdt.txtSearchPdt(), "Search Product");
 		ArrayList excelData = data.getData("Product");
 		act.type(objPdt.txtSearchPdt(), (String) excelData.get(2));
