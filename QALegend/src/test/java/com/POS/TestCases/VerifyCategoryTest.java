@@ -14,6 +14,7 @@ public class VerifyCategoryTest extends BaseClass {
 	public void validateCatTblHeaders() {
 		Log.startTestCase("VerifyCategoryTest--validateCatTblHeaders");
 		objLogin.loginFn();
+		act.click1(objHome.btnMenu(), "Menu");
 		act.click1(objHome.menuCategory(), "Category Menu");
 		act.click1(objHome.menuCatPdt(), "Category Pdt");
 		List<WebElement> lstCattblHdr = objCategory.tblCatHeaders();
@@ -42,6 +43,7 @@ public class VerifyCategoryTest extends BaseClass {
 	public void validateAddCategory() throws Exception {
 		Log.startTestCase("VerifyCategoryTest--validateAddCategory");
 		objLogin.loginFn();
+		act.click1(objHome.btnMenu(), "Menu");
 		act.click1(objHome.menuCategory(), "Category Menu");
 		act.click1(objHome.menuCatPdt(), "Category Pdt");
 		act.click1(objCategory.btnAddCat(), "Add Category");
