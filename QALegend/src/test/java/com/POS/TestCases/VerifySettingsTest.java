@@ -1,6 +1,8 @@
 package com.POS.TestCases;
 
 import java.util.ArrayList;
+import java.util.Random;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import com.POS.BaseClass.BaseClass;
@@ -15,10 +17,11 @@ public class VerifySettingsTest extends BaseClass {
 		act.click1(objHome.menuSettings(), "Settings Menu");
 		act.click1(objSettings.btnUsers(), "Users");
 		act.click1(objSettings.btnAddUser(), "Add User");
+		Random objRan = new Random();		
 		ArrayList excelData = data.getData("User");
 		act.type(objSettings.txtUserName(), (String) excelData.get(0));
-		act.type(objSettings.txtFirstNm(), (String) excelData.get(1));
-		act.type(objSettings.txtLastNm(), (String) excelData.get(2));
+		act.type(objSettings.txtFirstNm(), (String) excelData.get(1)+""+objRan.nextInt());
+		act.type(objSettings.txtLastNm(), (String) excelData.get(2)+""+objRan.nextInt());
 		act.click1(objSettings.rbtnSales(), "Sales");
 		act.type(objSettings.txtEmail(), (String) excelData.get(3));
 		act.type(objSettings.txtPassword(), (String) excelData.get(4));
