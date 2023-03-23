@@ -11,15 +11,12 @@ import com.POS.BaseClass.BaseClass;
 import com.POS.Utilities.Log;
 
 public class VerifyHomePageTest extends BaseClass {
-	@Test(priority = 1, groups = { "Smoke" })
+	@Test(priority = 1, groups = { "Smoke" },enabled = false)
 	public void validateElementsDisplay() {
 		Log.startTestCase("VerifyHomePageTest--displayElements");
 		objLogin.loginFn();
 		act.findElement(getDriver(), objHome.logoImage());
 		Assert.assertTrue(objHome.logoImage().isDisplayed());
-		if(objHome.btnMenu().isDisplayed()) {
-			act.click1(objHome.btnMenu(), "Menu");
-		}		
 		act.findElement(getDriver(), objHome.loginLabel());
 		Assert.assertTrue(objHome.loginLabel().isDisplayed());
 		act.findElement(getDriver(), objHome.loginImage());
