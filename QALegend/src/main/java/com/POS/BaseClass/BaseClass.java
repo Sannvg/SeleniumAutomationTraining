@@ -97,9 +97,9 @@ public class BaseClass {
 	public void launchApp(String browserName) {
 		// String browserName = prop.getProperty("Browser");
 		if (browserName.equalsIgnoreCase("Chrome")) {
-			ChromeOptions co = new ChromeOptions();
-			co.addArguments("--remote-allow-origins=*");
-			driver.set(new ChromeDriver());		
+			ChromeOptions opt = new ChromeOptions();
+			opt.addArguments("--remote-allow-origins=*");
+			driver.set(new ChromeDriver(opt));		
 		} else if (browserName.equalsIgnoreCase("FireFox")) {
 			driver.set(new FirefoxDriver());
 		} else if (browserName.equalsIgnoreCase("Edge")) {

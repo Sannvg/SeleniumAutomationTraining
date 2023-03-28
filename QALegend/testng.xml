@@ -3,9 +3,9 @@
 <suite name="RestaurantSuite">
 	<listeners>
 		<listener class-name="com.POS.Utilities.Listeners"></listener>
-		<listener class-name="com.POS.Utilities.RetryAnalyzerListener"></listener> 
+		<listener class-name="com.POS.Utilities.RetryAnalyzerListener"></listener>  
 	</listeners>
-	<parameter name="Browser" value="Edge"></parameter>
+	<parameter name="Browser" value="Chrome"></parameter>
 	<test thread-count="5" name="QALegendTest">
 		<classes>
 			<class name="com.POS.TestCases.VerifyUserLoginTest" />
