@@ -25,7 +25,7 @@ public class VerifyWaiterTest extends BaseClass {
 		Log.startTestCase("VerifyWaiterTest--validateAddWaiter");
 		objWaiter.beforefnWaiter();
 		act.click1(objWaiter.btnAddWaiter(), "Add Waiter");
-		ArrayList excelData = data.getData("EWaiter");
+		ArrayList excelData = data.getData("Waiter");
 		act.type(objWaiter.txtWaiterName(), (String) excelData.get(0));
 		act.type(objWaiter.txtWaiterPhone(), (String) excelData.get(1));
 		act.type(objWaiter.txtWaiterEmail(), (String) excelData.get(2));
@@ -55,7 +55,7 @@ public class VerifyWaiterTest extends BaseClass {
 		objWaiter.beforefnWaiter();
 		act.type(objWaiter.txtSearchWaiter(), "OBS");
 		act.click1(objWaiter.btneditWaiter(), "Edit Waiter");
-		ArrayList excelData = data.getData("Waiter");
+		ArrayList excelData = data.getData("EWaiter");
 		act.type(objEditPeople.txtEditWNm(), (String) excelData.get(0));
 		act.type(objEditPeople.txtEditWPhn(), (String) excelData.get(1));
 		act.type(objEditPeople.txtEditWEm(), (String) excelData.get(2));
